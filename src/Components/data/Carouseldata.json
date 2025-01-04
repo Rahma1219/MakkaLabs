@@ -1,0 +1,28 @@
+{
+    "slides": [
+      
+        {
+            "src": "/Images/Untitled design.mp4",
+            "type": "video",
+              "alt": "video",
+            "text":" معامل مكة",
+            "text2":"  للتحاليل الطبية",
+            "img":"../../../public/Images/output-onlinegiftools (1).gif",
+             "img2":"../../../public/Images/flask-unscreen.gif"
+        
+        },
+        {
+            "src": "../../../public/Images/bglab.jpg",
+            "type": "image",
+            "alt": "Photo"
+
+          
+        },
+        {
+            "src": "/Images/photo4.jpg",
+            "type": "image",
+            "alt": "Photo"
+           
+        }
+    ]
+}

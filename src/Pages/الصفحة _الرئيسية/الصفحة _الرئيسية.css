@@ -1,0 +1,150 @@
+
+.home{
+    width: 100%;
+    height: auto;
+}
+
+
+.carouselSec2 {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    /* margin-top: 200px; */
+
+}
+
+.uppart {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 100px;
+}
+
+
+
+.downpart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#bglabimg {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#bglabimg:hover {
+cursor: pointer;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.466);
+}
+
+
+
+.image1 {
+
+    width: 220px;
+    height: 220px;
+}
+
+.image2 {
+    /* margin-left: 20px; */
+    width: 170px;
+    height: 170px;
+}
+
+.image3 {
+    /* margin-left: 20px; */
+    width: 180px;
+    height: 180px;
+}
+
+
+/* #textlabimg {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Noto Sans Arabic", serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+} */
+.textlimh {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Noto Sans Arabic", serif;
+    font-weight:700;
+}
+
+.textlimh:hover {
+ font-size: 38px;
+}
+
+
+
+#link2 {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+ 
+
+    #bglabimg {
+       
+        width: 250px;
+        height: 250px;
+       
+    }
+
+
+    .labsdata {
+        padding-top: 30px;
+    }
+
+    .textlimh {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 35px;
+        font-family: "Noto Sans Arabic", serif;
+        font-weight:700;
+    }
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    #bglabimg {
+       
+        width: 250px;
+        height: 250px;
+       
+    }
+
+
+    .labsdata {
+        padding-top: 30px;
+    }
+
+    .textlimh {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 35px;
+        font-family: "Noto Sans Arabic", serif;
+        font-weight:700;
+    }
+}

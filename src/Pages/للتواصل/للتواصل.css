@@ -1,0 +1,408 @@
+.contactus {
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    height: 160vh;
+}
+
+
+
+.maininput::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: 700;
+    font-size: 17px;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-right: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+
+.maininput:hover::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    overflow: visible;
+    vertical-align: top;
+    /* display: inline-block !important; */
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(4, 4, 4);
+    cursor: pointer;
+
+}
+
+
+
+.maininput::-moz-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-right: 5px;
+    color: black;
+}
+
+.maininput:-ms-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: black;
+}
+
+.contactimg {
+    position: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.submit {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.submit input {
+    background-color: rgb(9, 10, 10);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+.submit input:hover {
+    background-color: rgba(2, 4, 4, 0.715);
+    font-size: 15px;
+}
+
+
+
+.titlecontact {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-align: center;
+    padding: 35px 20px 20px 20px;
+    font-family: "Lalezar", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-shadow: 0 0 3px #695021, 0 0 5px #48260b;
+}
+
+
+.imgconact {
+    position: relative;
+    background-size: cover;
+    width: 100%;
+}
+
+.data a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#number {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+#address {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.data span {
+    font-family: "Anton", serif;
+    font-style: normal;
+    color: black;
+}
+
+
+.input label {
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    font-family: "Zain", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.868);
+    cursor: pointer;
+}
+
+
+input {
+    outline: none;
+
+}
+
+
+.inputs input:focus {
+    border-bottom: 3px solid black;
+
+}
+
+
+
+@keyframes outlint {
+    0% {
+
+        left: 0;
+    }
+
+    50% {
+        left: 350px;
+    }
+
+}
+
+
+.input {
+    margin-top: 30px;
+
+}
+
+.inputs {
+    width: 400px;
+    height: 350px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px 10px #312e2e63;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.map{
+    height: 250px;
+    border-radius: 10px;
+    /* margin-bottom: 200px; */
+}
+.alertdiv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    top: 20px;
+    right: 4%;
+    width: 90%;
+    z-index: 9999;
+    background-color: rgba(56, 181, 203, 0.82);
+    height: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    animation-name: alert2;
+    animation-duration: 2s;
+}
+
+@keyframes alert2 {
+    0% {
+        top: 0%;
+    }
+
+    100% {
+        top: 20px;
+    }
+}
+
+
+
+.alertdiv p {
+    font-size: 20px;
+}
+
+.alertdiv img {
+    width: 30px;
+}
+
+
+.form {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+
+.input input {
+    position: relative;
+    border: none;
+    height: 40px;
+    width: 350px;
+    margin: 0 auto;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    /* width: 100%; */
+}
+
+.imgtitle img {
+    width: 100px;
+}
+
+.imgtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input1 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#gmail {
+    font-size: 17px;
+}
+
+.secdata {
+    padding: 20px;
+    margin-top: 25px;
+    height: 220px;
+}
+
+.socialmedialinks {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    direction: ltr;
+
+}
+
+.socialmedialinks a img {
+    width: 20px;
+}
+
+.data {
+    /* background-color: rgb(255, 254, 254);
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 5px;*/
+    width: 400px;
+    height: 350px;
+    list-style: none;
+    background-color: #EEEDEB;
+    box-shadow: 0 0 20px 10px #312e2e63;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.data img {
+    width: 32px;
+}
+
+.container {
+    width: 90vw;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    right: 5%;
+    border-radius: 15px;
+}
+
+.secdata li {
+    display: flex;
+    align-items: center;
+
+
+}
+#whatschanel{
+    font-size: 18px;
+}
+
+.secdata img {
+    width: 30px;
+}
+
+.sec2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 20px 20px 70px 20px;
+
+}
+
+.error {
+    color: rgb(177, 23, 23);
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .contactus {
+        display: flex;
+        flex-wrap: wrap;
+        height: 220vh;
+
+    }
+
+    .input input {
+
+        height: 40px;
+        width: 300px;
+
+    }
+    .inputs ,.data{
+        width: 300px;
+    }
+
+
+    .titlecontact {
+        font-size: 40px;
+
+    }
+
+    .container .callcentericon {
+        width: 70px;
+    }
+
+
+    .alertdiv {
+        gap: 10px;
+        top: 15px;
+        right: 4%;
+        width: 80vw;
+        height: 25px;
+       
+    }
+    
+    @keyframes alert2 {
+        0% {
+            top: 0%;
+        }
+    
+        100% {
+            top: 15px;
+        }
+    }
+    
+    
+    
+    .alertdiv p {
+        font-size: 16px;
+    }
+    
+    .alertdiv img {
+        width: 20px;
+    }
+    
+}

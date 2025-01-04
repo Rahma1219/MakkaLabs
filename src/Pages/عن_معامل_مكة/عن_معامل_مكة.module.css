@@ -1,0 +1,279 @@
+.Aboutsec {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(169, 169, 169, 0.119);
+
+}
+
+.container {
+    margin-top: 150px;
+
+}
+
+
+
+.moredetailsbtn {
+    position: relative;
+    display: inline-flex;
+    padding: 20px 30px;
+    background-color: #363636;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 20px;
+    border: none;
+    /* box-shadow: 0px 0px 28px 10px #555555c4; */
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.moredetailsbtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #1ec4cd;
+    transition: width 0.5s, height 0.5s;
+}
+
+.moredetailsbtn:hover::before {
+
+    width: 300px;
+    height: 300px;
+
+}
+
+.moredetailsbtn span {
+    position: relative;
+}
+
+
+.moredetailsbtn2 {
+    position: relative;
+    display: inline-flex;
+    padding: 20px 30px;
+    background-color: #363636;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 20px;
+    border: none;
+    /* box-shadow: 0px 0px 28px 10px #555555c4; */
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.moredetailsbtn2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #e52c35;
+    transition: width 0.5s, height 0.5s;
+}
+
+.moredetailsbtn2 span {
+    position: relative;
+}
+
+.moredetailsbtn2:hover::before {
+
+    width: 300px;
+    height: 300px;
+
+}
+
+
+.moredetails {
+    padding: 20px 50px 20px 0;
+    font-size: 16px;
+
+
+}
+
+.moredetails li {
+    line-height: 2;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-top:15px ;
+
+
+}
+
+.moredetails li::marker {
+    color: red;
+}
+
+.content {
+    width: 60vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.349);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.content h1 {
+    font-size: 35px;
+    padding: 20px 0;
+    color: rgb(15, 199, 199);
+    text-align: center;
+    font-family: "Zain", serif;
+    font-weight: 800;
+    font-style: italic;
+
+
+}
+
+.content p {
+    word-spacing: 3px;
+    font-size: 16px;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.7;
+}
+
+.para1 {
+    padding: 40px 0;
+}
+
+
+
+.nametitle {
+    text-align: center;
+    line-height: 1.7;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.persondetails {
+    text-align: center;
+    line-height: 1.7;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#des {
+    color: red;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+@media screen and (max-width:500px) {
+
+    .content {
+        width: 70vw;
+        padding: 25px;
+    }
+
+    .firstcontent p {
+        font-size: 15px;
+    }
+
+    .content h1 {
+        font-size: 28px;
+        padding: 20px 0;
+        color: rgb(15, 199, 199);
+        font-weight: 600;
+
+    }
+
+    .nametitle {
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    #des {
+        font-size: 14px;
+    }
+
+    .content .persondetails {
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.6;
+        font-weight: 600;
+
+    }
+
+    .moredetails {
+        padding: 20px 30px 20px 0;
+        font-size: 16px;
+
+
+    }
+
+    .moredetails li {
+        font-size: 14px;
+        line-height: 1.5;
+        font-weight: 500;
+        /* text-align: justify;
+        text-justify: inter-word; */
+       
+
+    }
+
+    #contentpara1 {
+        font-size: 14px;
+        font-weight: 600;
+        word-spacing: 2px;
+        text-align: center;
+      
+      
+    }
+
+    #contentpara2 {
+        font-size: 14px;
+        font-weight: 600;
+        word-spacing: 2px;    
+    }
+
+
+    #contentpara3 {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: justify;
+          
+     
+    }
+
+
+    .para1 {
+        padding: 25px 0;
+    }
+
+
+    .moredetailsbtn {
+        padding: 15px 20px;
+    }
+    
+    .moredetailsbtn2 {
+        padding: 15px 20px;
+    }
+    
+
+}

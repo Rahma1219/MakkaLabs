@@ -1,0 +1,330 @@
+.courseSec {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 20px 50px 30px 20px;
+    position: relative;
+
+
+
+
+}
+
+.iconlink {
+    display: flex;
+    align-items: center;
+}
+
+.iconlink a {
+    color: rgb(2, 45, 129);
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.iconlink a:hover {
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.detailscontact,
+.detailscontact2 {
+    margin-right: 60px;
+}
+
+.detailscontact img {
+    width: 25px;
+    top: 5px;
+    right: 5px;
+    position: relative;
+
+}
+
+.detailscontact2 img {
+    width: 20px;
+    top: 5px;
+    right: 5px;
+    position: relative;
+}
+
+.detailscontact img:hover {
+    width: 22px;
+}
+
+.iconlink2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.licontact li {
+    list-style: circle;
+}
+
+.iconlink img {
+    width: 25px;
+
+}
+
+.iconlink img:hover {
+    width: 22px;
+
+}
+
+.title {
+    text-align: center;
+    padding: 100px 0 50px 0;
+    font-size: 30px;
+}
+
+.courseimg {
+    height: auto;
+}
+
+
+
+.courseContent {
+    padding: 0 50px 0 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+
+}
+
+.coursedetails li::marker {
+    color: yellowgreen;
+    font-size: 20px;
+}
+
+.courseTitle {
+    padding: 0 0 30px 0;
+    font-size: 30px;
+}
+
+
+.flexarrowsmallscreen {
+    display: none;
+}
+
+#arrow {
+    width: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    position: relative;
+}
+
+#arrowdown {
+    width: 40px;
+    cursor: pointer;
+    bottom: 10px;
+    position: relative;
+}
+
+.list li::marker {
+    color: rgb(226, 43, 64);
+}
+
+.list {
+    padding: 0 30px 30px 0;
+    transition: height 2s;
+}
+
+.coursedetails {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+
+.flexarrow {
+    display: flex;
+
+}
+
+.divli1,
+.divli2 {
+    width: 600px;
+}
+
+.divli1 li, .divli2 li{
+    padding: 10px 0;
+}
+
+.courseContact h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.courseContact {
+
+    margin: 50px 0 200px 0;
+
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.courseContact2 {
+
+    padding: 30px;
+    width: 900px;
+    border-radius: 10px;
+    position: relative;
+
+
+}
+
+.contactTitle {
+    color: red;
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width:500px) {
+    .courseimg {
+        width: 300px;
+    }
+
+    .title {
+        text-align: center;
+        padding: 100px 0 50px 0;
+        font-size: 20px;
+    }
+
+    .courseTitle {
+        font-size: 20px;
+        padding-left:  10px;
+    }
+
+    #arrow {
+        width: 30px;
+        margin-top: 15px;
+    }
+
+    #arrowdown {
+        width: 30px;
+
+    }
+
+    .divli1 li,
+    .divli2 li {
+        font-size: 15px;
+       
+    }
+
+    .flexarrowsmallscreen {
+        display: block;
+    }
+
+    .list {
+        padding: 0 30px 30px 0;
+        transition: height 2s;
+
+    }
+
+    .coursedetails {
+        padding: 0 10px 100px 20px;
+    }
+
+    .divli1,
+    .divli2 {
+        width: 100vw;
+    }
+
+    .iconlink {
+        display: block;
+    }
+
+    .iconlink img {
+        width: 18px;
+    }
+
+    .detailscontact img {
+        width: 20px;
+
+
+    }
+
+
+    .detailscontact img:hover {
+        width: 17px;
+    }
+
+    .detailscontact2 img {
+        width: 15px;
+    }
+
+
+
+    .courseContact h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .courseContact {
+
+        margin: 50px 0 200px 0;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #flewarrow1 {
+        display: none;
+    }
+
+    #arrow1 {
+        width: 30px;
+        position: relative;
+        top: 18px;
+    }
+
+    #arrowdown1 {
+        width: 30px;
+    }
+
+
+
+    .courseContact2 {
+
+        padding: 30px;
+        width: 900px;
+        border-radius: 10px;
+        position: relative;
+
+
+    }
+
+    .contactTitle {
+        font-size: 20px;
+    }
+
+    .list li::marker {
+        font-size: 14px;
+    }
+
+    .list li {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .detailscontact,
+    .detailscontact2 {
+        font-size: 14px;
+    }
+}
