@@ -9,7 +9,7 @@ function الزيارة_المنزلية() {
 
 
         <section className={modules.homeservicesec}>
-            {/* <img src={bghouse} alt="" className={modules.bghouse} /> */}
+        
             <div className={modules.container}>
                 <div>
                     <h1>الزيارة المنزلية</h1>

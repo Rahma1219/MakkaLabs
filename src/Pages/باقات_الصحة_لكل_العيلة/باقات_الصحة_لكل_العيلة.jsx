@@ -1,19 +1,8 @@
 import modules from './باقات_الصحة_لكل_العيلة.module.css'
 import { PackagesData } from '../../../Data/Data'
-import { useState } from 'react';
 
 
 function باقات_الصحة_لكل_العيلة() {
-
-
-    // const [expandedId, setExpandedId] = useState(null);
-
-
-
-    // // Toggle function
-    // const toggleExpand = (id) => {
-    //     setExpandedId((prevId) => (prevId === id ? null : id));
-    // };
 
 
     return (

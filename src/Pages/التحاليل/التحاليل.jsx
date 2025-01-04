@@ -1,21 +1,9 @@
 import './التحاليل.css'
 import { Data } from '../../../Data/Data';
-import { useParams } from 'react-router-dom'
 import { useRef, useState } from 'react'
-import eyeopen from "../../../public/Images/eye.png"
-import eyeclose from "../../../public/Images/eyebrow.png"
-import imglab from "../../../public/Images/laboratory.png"
-import imglab2 from "../../../public/Images/microscope.png"
-import imglab3 from "../../../public/Images/laboratory_15394724.png"
-import imglab4 from "../../../public/Images/scientist (1).png"
-import imglab5 from "../../../public/Images/scientist.png"
-import imglab6 from "../../../public/Images/blood-test.png"
-import imglab7 from "../../../public/Images/check-list.png"
-import imglab8 from "../../../public/Images/test-tube.png"
-import imglab9 from "../../../public/Images/scientist.png"
-import imglab10 from "../../../public/Images/lab-coat.png"
-import imglab19 from "../../../public/Images/microbiology.png"
-import logolab from "../../../public/Images/logo-Photoroom.png"
+import eyeopen from "/Images/eye.png"
+import eyeclose from "/Images/eyebrow.png"
+
 
 
 function التحاليل() {
@@ -23,8 +11,6 @@ function التحاليل() {
 
 
     const [expandedId, setExpandedId] = useState(null);
-
-
 
     // Toggle function
     const toggleExpand = (id) => {
@@ -34,10 +20,6 @@ function التحاليل() {
 
 
     const sectionRef = useRef(null);
-
-    
-
-
 
     return (
         <section className='section2'>
@@ -111,51 +93,12 @@ function التحاليل() {
                     </ul>
                 </div>
 
-                {/* <div className="circle">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div> */}
 
-                {/* <div className='flex'>
-                <ul className="acorrdionfaq">
-                    {Data.map((item) => {
-                        (
-                            <li className="item"  key={item.id} >
-                                <div className="title"  >
-                                    <h1 >  {item.title} </h1>
-
-                                    <span onClick={() => toggleExpand(item.id)} >{expandedId === item.id ? "-" : "+"}</span>
-
-                                </div>
-                                {expandedId === item.id && (
-                                    <div style={{ margin: 0, lineHeight: "2" }} id='details' >
-                                        {item.Details}</div>
-
-                                )}
-                                
-
-                            </li>
-                        )
-                    })}
-                </ul>
-
-
-            </div>
- */}
+               
             </div>
         </section>
     )
-    {/* {item.Details.split("\n").map((line, index) => (
-                                    
-<div > {line}</div>))} */}
+
 }
 
 export default التحاليل

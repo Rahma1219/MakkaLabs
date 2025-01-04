@@ -1,7 +1,5 @@
 import './Carousel.css'
 import { GoChevronLeft, GoChevronRight } from 'react-icons/go'
-// import iconlab from "../../../public/Images/output-onlinegiftools.gif"
-// import iconlab2 from "../../../public/Images/output-onlinegiftools (1).gif"
 
 
 import { useState } from 'react'

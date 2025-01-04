@@ -8,16 +8,8 @@ import تدريب from "../Pages/تدريب/تدريب"
 import خدماتنا from "../Pages/خدماتنا/خدماتنا"
 import عن_معامل_مكة from "../Pages/عن_معامل_مكة/عن_معامل_مكة"
 import الزيارة_المنزلية from "../Pages/الزيارة_المنزلية/الزيارة_المنزلية"
-import { useEffect } from "react"
-// import PrivacyPolicies from "../Pages/Returns"
-// import Shop from "../../src/Pages/Shop/Shop"
-// import SingleProduct from "../../src/Pages/SingleProduct/SingleProduct"
-// import CategoriesProduct from "../Pages/CategoriesProduct/CategoriesProduct"
-// import ElectroniCategory from "../Pages/ElectronicCategory/ElectroniCategory"
-// import WomensClothesCategory from "../Pages/WomenClothesCategory/WomenClothesCategory"
-// import MensClothesCategory from "../Pages/MensClothesCategory/MensClothesCategory"
-// import JeweleryCategory from "../Pages/JeweleryCategory/JeweleryCategory"
-// import Cart from "../../src/Pages/Cart/Cart"
+
+
 
 
 
@@ -39,12 +31,6 @@ function Routing() {
                    <Route path="/خدماتنا" element={<خدماتنا />} ></Route>
                      <Route path="/عن_معامل_مكة" element={<عن_معامل_مكة />} ></Route>
                     <Route path="/الزيارة_المنزلية" element={<الزيارة_المنزلية />} ></Route>
-                    {/* <Route path="/privacypolicies" element={<PrivacyPolicies />} ></Route>
-                    <Route path="/ElectroniCategory" element={<ElectroniCategory />} ></Route>
-                    <Route path="/JeweleryCategory" element={<JeweleryCategory />} ></Route>
-                    <Route path="/MensClothesCategory" element={<MensClothesCategory />} ></Route>
-                    <Route path="/WomensClothesCategory" element={<WomensClothesCategory />} ></Route> */}
-                    <Route path="*" element={<Navigate to="/" />}/>
                 </Route>
             </Routes>
         </BrowserRouter>

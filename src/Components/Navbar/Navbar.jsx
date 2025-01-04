@@ -4,12 +4,6 @@ import modules from './Navbar.module.css'
 import Logo from '../../../public/Images/Logo.png'
 import CLoseIcon from '../../../public/Images/cross.png'
 import MenuIcon from '../../../public/Images/menu-bar.png'
-import { GiDivingHelmet } from 'react-icons/gi'
-
-
-
-
-
 
 
 
@@ -49,25 +43,10 @@ function Navbar() {
     }
 
 
-    // const [show, setShow] = useState(false)
-
-    // function showcontent() {
-    //     return (
-    //         setShow(!show)
-    //     )
-    // }
-
 
 
     return (
         <header>
-            {/* {showSidebarcart == true ? (
-                <Sidebarcart
-                    hiddenSidebarcart={hiddenSidebarcart} >
-
-                </Sidebarcart>
-
-            ) : null} */}
             <nav className={modules.navbar} >
 
 

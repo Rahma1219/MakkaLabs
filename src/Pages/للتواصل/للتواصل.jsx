@@ -12,7 +12,6 @@ import whatschanel from '../../../public/Images/whatsapp.png'
 import * as yup from 'yup'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
-import { data } from 'react-router-dom'
 import checkicon from '../../../public/Images/check-mark.png'
 import { useState } from 'react'
 
@@ -55,7 +54,7 @@ function للتواصل_معنا() {
         setIsVisible(true);
         setTimeout(() => {
             setIsVisible(false);
-        }, 2000); // 1000ms = 1 second
+        }, 2000); // 2000ms = 2 second
 
     }
 
@@ -125,18 +124,14 @@ function للتواصل_معنا() {
 
 
                         </div>
-                        {/*  */}
                         <div className='sec2'>
                             <div className='inputs'>
                                 <form className='form' onSubmit={handleSubmit(onSubmit)} >
                                     <div className='input'>
-                                        {/* <label htmlFor="">الأسم</label> */}
                                         <input type="text" className="maininput"
                                             placeholder='الأسم'
                                             name="name"
                                             {...register('name')}
-                                        // value={formData.name}
-                                        // onChange={handleChange}
                                         />
                                         <p className='error'>{errors.name?.message}</p>
 
@@ -163,7 +158,6 @@ function للتواصل_معنا() {
 
                                     <div className='submit'>
                                         <input type="submit" name="" className="maininput"
-                                            // onClick={showdiv}
                                             value='إرسال'
                                         />
                                     </div>
