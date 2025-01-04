@@ -35,11 +35,7 @@ function التحاليل() {
 
     const sectionRef = useRef(null);
 
-    // const handleScroll = () => {
-    //   if (sectionRef.current) {
-    //     sectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
-    //   }
-    // };
+    
 
 
 
@@ -54,31 +50,7 @@ function التحاليل() {
             </div>
 
             <div className="secc">
-                {/* <div className="circle">
-                 
-
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-
-                </div> */}
+        
 
 
                 <div className='collaps'>
