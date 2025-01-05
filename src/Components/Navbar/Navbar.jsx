@@ -40,6 +40,7 @@ function Navbar() {
 
     function scrollWin() {
         window.scrollTo(0, 0);
+        setshowSidebar(!Finalresult)
     }
 
 
@@ -58,7 +59,7 @@ function Navbar() {
                             {routes.map((route) => (
                                 <div className={modules.containersidebar}>
                                     <li key={route.path} className={activeTab === route.label ? modules.active : modules.none} onClick={() => setActiveTab(route.label)} >
-                                        <Link to={route.path} id={modules.link} className={modules.link2} onClick={scrollWin}>
+                                        <Link to={route.path} id={modules.link} className={modules.link2} onClick={scrollWin} >
                                             {route.label}</Link>
                                     </li>
                                 </div>
