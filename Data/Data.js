@@ -249,7 +249,7 @@ export const PackagesData = [
     TG
     HDL
     LDL`,
-        img: "/public/Images/fat.jpg"
+        img: "/Images/fat.jpg"
     },
     {
         id: 1,
@@ -258,7 +258,7 @@ export const PackagesData = [
          P.P.BS
          HbA1c
          urine analysis`,
-        img: "/public/Images/img33.jpg"
+        img: "/Images/img33.jpg"
     },
     {
         id: 2,
@@ -267,7 +267,7 @@ export const PackagesData = [
          AST
          HCV Ab
          HBS A`,
-        img: "/public/Images/الكبد.jpg"
+        img: "/Images/الكبد.jpg"
     },
     {
         id: 3,
@@ -276,7 +276,7 @@ export const PackagesData = [
          Creatinine
          Uric acid 
          Urine analys`,
-        img: "/public/Images/kidney.jpg"
+        img: "/Images/kidney.jpg"
     },
     {
         id: 4,
@@ -290,7 +290,7 @@ export const PackagesData = [
       TG
       Urine analysis
       Stool analysis`,
-        img: "/public/Images/img12.jpg"
+        img: "/Images/img12.jpg"
     },
     {
         id: 5,
@@ -299,7 +299,7 @@ export const PackagesData = [
          IRON
          VITAMIN D
          ZINC`,
-        img: "/public/Images/img35.jpg"
+        img: "/Images/img35.jpg"
     },
     {
         id: 6,
@@ -307,7 +307,7 @@ export const PackagesData = [
         description: `T 3
          T 4 
          TSH`,
-        img: "/public/Images/الغدة.jpg"
+        img: "/Images/الغدة.jpg"
     },
     {
         id: 7,
@@ -321,7 +321,7 @@ export const PackagesData = [
          Vitamin D
          T 3  - T 4
          TSH`,
-        img: "/public/Images/blood.jpg"
+        img: "/Images/blood.jpg"
     },
     {
         id: 8,
@@ -411,7 +411,7 @@ export const PackagesData = [
          RF
         Uric acid
          Urine analysis`,
-        img: "/public/Images/الالتهابات.jpg"
+        img: "/Images/الالتهابات.jpg"
     }
 
 
