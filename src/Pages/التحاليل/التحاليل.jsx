@@ -5,7 +5,7 @@ import { useRef, useState } from 'react'
 import eyeopen from "../../../public/Images/eye.png"
 import eyeclose from "../../../public/Images/eyebrow.png"
 import imglab2 from "../../../public/Images/microscope.png"
-i
+
 
 
 function التحاليل() {
