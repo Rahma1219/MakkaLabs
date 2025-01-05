@@ -1,9 +1,11 @@
 import './التحاليل.css'
 import { Data } from '../../../Data/Data';
+import { useParams } from 'react-router-dom'
 import { useRef, useState } from 'react'
-import eyeopen from "/Images/eye.png"
-import eyeclose from "/Images/eyebrow.png"
-
+import eyeopen from "../../../public/Images/eye.png"
+import eyeclose from "../../../public/Images/eyebrow.png"
+import imglab2 from "../../../public/Images/microscope.png"
+i
 
 
 function التحاليل() {
@@ -11,6 +13,8 @@ function التحاليل() {
 
 
     const [expandedId, setExpandedId] = useState(null);
+
+
 
     // Toggle function
     const toggleExpand = (id) => {
@@ -20,6 +24,10 @@ function التحاليل() {
 
 
     const sectionRef = useRef(null);
+
+    
+
+
 
     return (
         <section className='section2'>
@@ -65,7 +73,7 @@ function التحاليل() {
 
 
                                                 <img src={eyeclose}  alt="" onClick={() => setExpandedId(false)} id='eyeicon2' />
-                                                {/* <img src={logolab} alt="" className='logolab1' /> */}
+                                                
 
                                                
                                                 <h3>{item.title}</h3>
@@ -93,12 +101,13 @@ function التحاليل() {
                     </ul>
                 </div>
 
+            
 
-               
+                
             </div>
         </section>
     )
-
+  
 }
 
 export default التحاليل
