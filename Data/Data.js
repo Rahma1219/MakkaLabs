@@ -329,7 +329,7 @@ export const PackagesData = [
         description: ` CBC
          ESR
          CRP`,
-        img: "/public/Images/img9.jpg"
+        img: "/Images/img9.jpg"
     },
     {
         id: 9,
@@ -343,7 +343,7 @@ export const PackagesData = [
          Folic acid
          HCV
          HBS Ag`,
-        img: "/public/Images/img36.jpg"
+        img: "/Images/img36.jpg"
 
     },
     {
@@ -358,7 +358,7 @@ export const PackagesData = [
          Liver function
          T3-T4
          TSH`,
-        img:"/public/Images/fat.jpg"
+        img:"/Images/fat.jpg"
     },
     {
         id: 11,
@@ -366,7 +366,7 @@ export const PackagesData = [
         description: `RBS
         HbA1c
         Microalbumin`,
-        img: "/public/Images/img14.jpg"
+        img: "/Images/img14.jpg"
     },
     {
         id: 12,
@@ -377,7 +377,7 @@ export const PackagesData = [
          Urea
          Creatinine
          TSH`,
-        img: "/public/Images/عدم التركيز.png"
+        img: "/Images/عدم التركيز.png"
     },
     {
         id: 13,
@@ -388,7 +388,7 @@ export const PackagesData = [
      Progesterone
      Testosterone
      TSH`,
-        img: "/public/Images/img23.jpg"
+        img: "/Images/img23.jpg"
     },
     {
         id: 14,
@@ -399,7 +399,7 @@ export const PackagesData = [
      CUA
      Vitamin D
      RBS`,
-        img: "/public/Images/img15.jpg"
+        img: "/Images/img15.jpg"
 
     },
     {

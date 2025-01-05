@@ -12,7 +12,7 @@
         
         },
         {
-            "src": "../../../public/Images/bglab.jpg",
+            "src": "/Images/bglab.jpg",
             "type": "image",
             "alt": "Photo"
 
