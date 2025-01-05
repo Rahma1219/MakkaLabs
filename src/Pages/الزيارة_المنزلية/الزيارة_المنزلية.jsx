@@ -17,7 +17,7 @@ function الزيارة_المنزلية() {
 
                 <div className={modules.sechs}>
                     <div  >
-                        <img src={homeService} alt="" className={modules.imghomwservice} />
+                        <img src={homeService} alt="" className={modules.imghomwservice}     loading ="lazy"/>
                     </div>
 
                     <div className={modules.contnentHS} >
@@ -26,8 +26,8 @@ function الزيارة_المنزلية() {
                         <p>لحجز  زيارة منزلية برجاء التواصل على الارقام التالية :-</p>
                         <div className={modules.num}>
                             <ul>
-                                <li id={modules.num1}>01153117035  <img src={whats} alt="" /> </li>
-                                <li id={modules.num2}>01094930473  <img src={phone} alt="" /> </li>
+                                <li id={modules.num1}>01153117035  <img src={whats} alt=""     loading ="lazy" /> </li>
+                                <li id={modules.num2}>01094930473  <img src={phone} alt=""      loading ="lazy"/> </li>
                             </ul>
                         </div>
 

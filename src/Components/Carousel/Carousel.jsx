@@ -33,7 +33,7 @@ function Carousel({ data }) {
             <div key={index}
               className={`image-slide ${index === slide ? "active" : ""}`}>
               {item.type === "image" ? (
-                <img width="100%" loading="lazy" src={item.src} alt={item.alt} key={index} id='imgcarousel' loading="lazy" className={slide === index ? "slide" : "slide slide-hidden"} />
+                <img width="100%" loading="lazy" src={item.src} alt={item.alt} key={index} id='imgcarousel' className={slide === index ? "slide" : "slide slide-hidden"} />
 
               ) : (
                 <div className='text'>
@@ -41,6 +41,7 @@ function Carousel({ data }) {
                   <video autoPlay loop src={item.src}
                     className={slide === index ? "slide" : "slide slide-hidden"}
                     type="video/mp4"
+                    loading ="lazy"
                   />
 
                   {index === slide &&

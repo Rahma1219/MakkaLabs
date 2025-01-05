@@ -44,7 +44,7 @@ function تدريب() {
 
             </div>
             <div className={modules.container}>
-                <img src={courseimg} alt="" className={modules.courseimg} />
+                <img src={courseimg} alt="" className={modules.courseimg}      loading ="lazy"/>
 
             </div>
 

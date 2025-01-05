@@ -79,7 +79,7 @@ function Navbar() {
                             <ul className={modules.tabs}>
 
                                 <div className={modules.logo}>
-                                    <Link to="/الصفحة_الرئيسية">  <img src={Logo} alt="" /></Link>
+                                    <Link to="/الصفحة_الرئيسية">  <img src={Logo} alt=""      loading ="lazy"/></Link>
 
                                     <Link to="/الصفحة_الرئيسية" id={modules.logotext} >  <span  > معامل مكة<br />للتحاليل الطبية</span> </Link>
                                 </div>
@@ -97,7 +97,7 @@ function Navbar() {
                         </div>
                         
                         <div className={modules.leftnav2}>
-                            <li onClick={ShowSidebar} className={modules.menubtn}><a href="#" id={modules.showicon}><img id={modules.dd} src={MenuIcon}></img></a></li>
+                            <li onClick={ShowSidebar} className={modules.menubtn}><a href="#" id={modules.showicon}><img id={modules.dd} src={MenuIcon}     loading ="lazy" ></img></a></li>
                         </div>
                     </div>
                 </div>
@@ -106,57 +106,6 @@ function Navbar() {
 
             </nav >
 
-
-
-            {/* <nav className="navbar">
-
-                <div className='logo'>
-                    <Link to="/home"  >     <img src={Logo} alt=""  /></Link>
-          
-                    <span id='logotext'> معامل مكة<br />
-                        للتحاليل الطبية</span> 
-                    {/* <span id='logotext'>/span> */}
-
-            {/* </div>
-
-
-                <div className='nav'> 
-                    <ul id='links'>
-                        <li>
-                            <Link to="/Home" id='link'  >الصفحة الرئيسية</Link>
-
-                        </li>
-
-                         <li>
-                            <Link to="/contactus" id='link' className='link2' > للتواصل معنا</Link>
-                        </li>
-
-                       {/* <li> */}
-
-            {/* <Link to="/contact" id='link' className='link3' >Contact</Link> */}
-
-            {/* </li> */}
-
-
-
-
-
-            {/* </ul>  */}
-
-
-
-            {/* <Link>  <img src={carticon} alt="carticon" id='iconcart'  /></Link> */}
-
-
-
-            {/* //     </div> */}
-
-
-
-
-
-
-            {/* // </nav> */}
         </header >
 
 
