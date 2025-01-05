@@ -21,8 +21,7 @@ function Navbar() {
         setshowSidebar(true)
     }
     function hiddenSidebar() {
-        let Finalresult = !showSidebar
-        setshowSidebar(Finalresult)
+        setshowSidebar(!showSidebar)
 
     }
 
@@ -40,7 +39,7 @@ function Navbar() {
 
     function scrollWin() {
         window.scrollTo(0, 0);
-        setshowSidebar(!Finalresult)
+        setshowSidebar(!showSidebar)
     }
 
 
