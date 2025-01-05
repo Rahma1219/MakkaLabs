@@ -33,7 +33,7 @@ function Carousel({ data }) {
             <div key={index}
               className={`image-slide ${index === slide ? "active" : ""}`}>
               {item.type === "image" ? (
-                <img width="100%" src={item.src} alt={item.alt} key={index} id='imgcarousel' className={slide === index ? "slide" : "slide slide-hidden"} />
+                <img width="100%" loading="lazy" src={item.src} alt={item.alt} key={index} id='imgcarousel' loading="lazy" className={slide === index ? "slide" : "slide slide-hidden"} />
 
               ) : (
                 <div className='text'>
@@ -49,7 +49,7 @@ function Carousel({ data }) {
                       <span className="image-text">
                           {item.text} <br /> {item.text2}
                            <div className='giflab'>
-                            <img src={item.img2} alt="" id='iconlab' />  <img src={item.img} alt="" id='iconlab' />
+                            <img src={item.img2} alt="" id='iconlab' loading="lazy" />  <img src={item.img} alt="" id='iconlab' loading="lazy" />
                           </div>
                       </span>
                     </div>}

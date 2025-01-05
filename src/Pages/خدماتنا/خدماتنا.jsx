@@ -16,20 +16,20 @@ function خدماتنا(){
             <div className={modules.cardsec}>
             <Link to='/الزيارة_المنزلية' id={modules.link}>
                 <div className={modules.card}>
-                    <img src={img17} alt="" />
+                    <img src={img17} alt="" loading="lazy" />
                     <h1>الزيارة المنزلية</h1>
                 </div>
            </Link>
 
                 <Link to='/باقات_الصحة_لكل_العيلة' id={modules.link}> 
                 <div className={modules.card}>
-                <img src={imgpakege} alt="" />
+                <img src={imgpakege} alt=""  loading="lazy"/>
                 <h1>باقات الصحة لكل العيلة</h1>
                 </div>
                 </Link>
                 <Link to='/تدريب' id={modules.link}>
                 <div className={modules.card} >
-                <img src={trainigimg} alt="" />
+                <img src={trainigimg} alt=""  loading="lazy"/>
                 <h1>تدريب</h1>
                 </div>
                 </Link>

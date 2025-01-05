@@ -103,7 +103,7 @@ function للتواصل_معنا() {
         <section className='contactus'>
             <div className='secimg'>
 
-                <img src={contactimg} className='contactimg' alt="" />
+                <img src={contactimg} className='contactimg' alt="" loading="lazy" />
 
             </div>
             <div className='contactussec'>
@@ -112,7 +112,7 @@ function للتواصل_معنا() {
                 {isVisible &&
                     <div className='alertdiv'>
                         <p className='alert'>تم التسجيل</p>
-                        <img src={checkicon} alt="" />
+                        <img src={checkicon} alt="" loading="lazy" />
                     </div>
                 }
                 <div >
@@ -120,7 +120,7 @@ function للتواصل_معنا() {
 
                     <div className='container'>
                         <div className='imgtitle'><h1 className='titlecontact'>للتواصل معنا</h1>
-                            <img src={telephone} alt="" className='callcentericon' />
+                            <img src={telephone} alt="" className='callcentericon'  loading="lazy"/>
 
 
                         </div>
@@ -170,16 +170,16 @@ function للتواصل_معنا() {
                             <div className='data'>
                                 <div className='secdata'>
                                     <li><a target="_blank"> <img src={phoneicon} alt="" /> <span id='number'>201094930473+</span> </a></li>
-                                    <li><a href="https://maps.app.goo.gl/EEWschQktFCxrocWA" target="_blank"> <img src={mapicon} alt="" /> <span id='address'>كفر الدوار - المراكبية القديمة - معمل مكة بمستوصف جمعية الهدي الإسلامي</span> </a></li>
+                                    <li><a href="https://maps.app.goo.gl/EEWschQktFCxrocWA" target="_blank"> <img src={mapicon} alt="" loading="lazy"/> <span id='address'>كفر الدوار - المراكبية القديمة - معمل مكة بمستوصف جمعية الهدي الإسلامي</span> </a></li>
                                     <li><a target="_blank"> <img src={gmail} alt="" /> <span id='gmail'>Makka.lab.egy@gmail.com</span></a></li>
-                                    <li><a href="https://whatsapp.com/channel/0029VahtQDm8PgsOH2mk0U2D" target="_blank"><img src={whatschanel} alt="" /> <span id='whatschanel'>قناة What'sApp لمعامل مكة</span></a></li>
+                                    <li><a href="https://whatsapp.com/channel/0029VahtQDm8PgsOH2mk0U2D" target="_blank"><img src={whatschanel} alt="" loading="lazy"/> <span id='whatschanel'>قناة What'sApp لمعامل مكة</span></a></li>
 
                                 </div>
                                 <div className='socialmedialinks'>
-                                    <a target='_blank' href="https://www.facebook.com/groups/1089050252633608/?ref=share&mibextid=KtfwRi"><img src={facebook} alt="" /></a>
-                                    <a target='_blank' href="https://www.instagram.com/makka.labs2?igsh=YzljYTk1ODg3Zg=="><img src={insta} alt="" /></a>
-                                    <a target='_blank' href="https://www.youtube.com/@Makkalabs"><img src={youtube} alt="" /></a>
-                                    <a target='_blank' href="https://wa.me/message/FTP33BEH5BMEL1"><img src={whats} alt="" /></a>
+                                    <a target='_blank' href="https://www.facebook.com/groups/1089050252633608/?ref=share&mibextid=KtfwRi"><img src={facebook} alt=""loading="lazy" /></a>
+                                    <a target='_blank' href="https://www.instagram.com/makka.labs2?igsh=YzljYTk1ODg3Zg=="><img src={insta} alt="" loading="lazy"/></a>
+                                    <a target='_blank' href="https://www.youtube.com/@Makkalabs"><img src={youtube} alt="" loading="lazy" /></a>
+                                    <a target='_blank' href="https://wa.me/message/FTP33BEH5BMEL1"><img src={whats} alt="" loading="lazy"/></a>
                                 </div>
 
 
@@ -188,9 +188,8 @@ function للتواصل_معنا() {
 
                             </div>
                         </div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3414.968522671232!2d30.11588889999999!3d31.138388899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDA4JzE4LjIiTiAzMMKwMDYnNTcuMiJF!5e0!3m2!1sen!2seg!4v1735936636560!5m2!1sen!2seg"
+                        <iframe   src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3414.968522671232!2d30.11588889999999!3d31.138388899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDA4JzE4LjIiTiAzMMKwMDYnNTcuMiJF!5e0!3m2!1sen!2seg!4v1735936636560!5m2!1sen!2seg"
                             width="100%"
-                            
                             style={{ border: "0" }}
                             allowfullscreen=""
                             loading="lazy"

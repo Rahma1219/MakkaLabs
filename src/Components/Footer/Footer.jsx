@@ -21,10 +21,10 @@ function Footer() {
                     <ul className={modules.socialicon}>
 
                         <div className={modules.socialicon2}>
-                            <li><a href="https://www.facebook.com/profile.php?id=61559968564925&mibextid=JRoKGi" target="_blank"><img src={facebookicon} alt="" /></a></li>
-                            <li><a href="https://www.youtube.com/@Makkalabs" target="_blank"><img src={youtubeicon} alt="" /></a></li>
-                            <li><a href="https://wa.me/message/FTP33BEH5BMEL1" target="_blank"><img src={whatsappicon} alt="" /></a></li>
-                            <li><a href="https://www.instagram.com/makka.labs2?igsh=YzljYTk1ODg3Zg==" target="_blank"><img src={instaicon} alt="" /></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=61559968564925&mibextid=JRoKGi" target="_blank"><img src={facebookicon} alt="" loading="lazy" /></a></li>
+                            <li><a href="https://www.youtube.com/@Makkalabs" target="_blank"><img src={youtubeicon} alt="" loading="lazy"/></a></li>
+                            <li><a href="https://wa.me/message/FTP33BEH5BMEL1" target="_blank"><img src={whatsappicon} alt="" loading="lazy"/></a></li>
+                            <li><a href="https://www.instagram.com/makka.labs2?igsh=YzljYTk1ODg3Zg==" target="_blank"><img src={instaicon} alt="" loading="lazy"/></a></li>
 
                         </div>
                       

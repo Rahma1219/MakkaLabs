@@ -14,7 +14,7 @@ function باقات_الصحة_لكل_العيلة() {
 
             {PackagesData.map((item) => (
                 <div className={modules.packege} >
-                    <img src={item.img} alt="" />
+                    <img src={item.img} alt="" loading="lazy" />
                     <details>
                         <summary className={modules.packegename} >{item.title}</summary>
                         {item.description.split("\n").map((line, index) => (

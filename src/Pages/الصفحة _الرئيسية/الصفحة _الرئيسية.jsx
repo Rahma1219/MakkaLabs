@@ -25,20 +25,20 @@ function الصفحة_الرئيسية() {
 
                         <Link to='/التحاليل' id='link2' onClick={scrollWin}>
                             <div className='labsdata'>
-                                <span id='bglabimg'><img src={labimg1} alt="" className='image1' /></span>
+                                <span id='bglabimg'><img src={labimg1} alt="" className='image1' loading="lazy" /></span>
                                 <h2 className='textlimh'>التحاليل</h2>
                             </div>
                         </Link>
 
                         <Link to='/باقات_الصحة_لكل_العيلة' id='link2' onClick={scrollWin}>
                             <div className='labsdata'>
-                                <p id='bglabimg'><img src={labimg2} alt="" className='image2' /></p>
+                                <p id='bglabimg'><img src={labimg2} alt="" className='image2'  loading="lazy"/></p>
                                 <h2 className='textlimh'>باقات الصحة<br />لكل العيلة</h2>
                             </div>
                         </Link>
                         <Link to='/تدريب' id='link2' onClick={scrollWin}>
                         <div className='labsdata'>
-                            <span id='bglabimg'><img src={labimg3} alt="" className='image3' /></span>
+                            <span id='bglabimg'><img src={labimg3} alt="" className='image3'loading="lazy" /></span>
                             <h2 className='textlimh'>تدريب</h2>
                         </div>
                         </Link>

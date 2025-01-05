@@ -1,10 +1,10 @@
 import './التحاليل.css'
 import { Data } from '../../../Data/Data';
-import { useParams } from 'react-router-dom'
+
 import { useRef, useState } from 'react'
-import eyeopen from "../../../public/Images/eye.png"
-import eyeclose from "../../../public/Images/eyebrow.png"
-import imglab2 from "../../../public/Images/microscope.png"
+import eyeopen from "/Images/eye.png"
+import eyeclose from "/Images/eyebrow.png"
+import imglab2 from "/Images/microscope.png"
 
 
 
@@ -72,7 +72,7 @@ function التحاليل() {
                                             <div className='content'>
 
 
-                                                <img src={eyeclose}  alt="" onClick={() => setExpandedId(false)} id='eyeicon2' />
+                                                <img src={eyeclose}  alt="photo" onClick={() => setExpandedId(false)} id='eyeicon2' loading="lazy" />
                                                 
 
                                                
