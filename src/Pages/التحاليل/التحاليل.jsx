@@ -30,7 +30,7 @@ function التحاليل() {
 
 
     return (
-        <section className='section2'>
+        <section className='section2' loading="lazy">
 
 
 
