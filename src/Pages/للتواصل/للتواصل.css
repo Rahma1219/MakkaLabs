@@ -362,7 +362,8 @@ input {
 
     }
     .inputs ,.data{
-        width: 300px;
+        width: 380px;
+        height: 350px;
     }
 
 
@@ -372,7 +373,7 @@ input {
     }
 
     .container .callcentericon {
-        width: 70px;
+        width: 60px;
     }
 
 
@@ -404,5 +405,20 @@ input {
     .alertdiv img {
         width: 20px;
     }
-    
+
+    #whatschanel{
+        font-size: 15px;
+    }
+    #gmail {
+        font-size: 15px;
+    }
+#address{
+    font-size: 13px;
+}
+#number{
+    font-size: 15px;
+}
+    .secdata img {
+        width: 25px;
+    }
 }
