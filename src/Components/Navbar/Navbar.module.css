@@ -4,6 +4,7 @@
     top: 0;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.374);
+
 }
 
 
@@ -56,19 +57,19 @@
     animation-duration: 2s;
 }
 
-@keyframes sidebar{
-    from{
-width: 0;
-opacity: 30%;
+@keyframes sidebar {
+    from {
+        width: 0;
+        opacity: 30%;
     }
 
-    to{
-width: 40%;
-opacity: 100%;
+    to {
+        width: 40%;
+        opacity: 100%;
     }
 }
 
-.Sidebar li{
+.Sidebar li {
     animation-name: lisidebar;
     animation-duration: 1s;
     list-style: none;
@@ -76,23 +77,25 @@ opacity: 100%;
 }
 
 @keyframes lisidebar {
-    from{
+    from {
         opacity: 20%;
     }
 
-    to{
+    to {
         opacity: 100%;
     }
-    
+
 }
 
 
-.containersidebar{
+.containersidebar {
     padding: 0 20px;
 }
-.containersidebar li{
+
+.containersidebar li {
     font-size: 18px;
 }
+
 .containersidebar li:hover {
     background-color: #0880cb;
     cursor: pointer;
@@ -114,7 +117,7 @@ opacity: 100%;
 
 }
 
-.containersidebar a{
+.containersidebar a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 13px;
@@ -137,6 +140,7 @@ opacity: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 #closeicon img {
@@ -268,13 +272,16 @@ opacity: 100%;
         height: 50px;
         width: 100%;
         display: flex;
-       gap: 95px;
+        gap: 95px;
         justify-content: center;
         align-items: center;
 
     }
+    #bg3{
+        display: block;
+    }
 
- 
+
 
     #showicon img {
         width: 30px;
@@ -299,7 +306,7 @@ opacity: 100%;
     }
 
     .leftnav2 {
-      
+
         padding: 10px;
     }
 
@@ -308,20 +315,16 @@ opacity: 100%;
     .logo img {
         width: 45px;
         margin-right: 20px;
-        /* border-radius: 100%;
-        animation-name: text;
-        animation-duration: 10s; */
-
     }
+
+
+
 
     #logotext {
         font-size: 10px;
     }
 
 
-    /* .navbar {
-        width: 0%;
-    } */
 
     @keyframes example {
         from {
@@ -344,15 +347,28 @@ opacity: 100%;
 
 
 
+}
 
+@media only screen and (min-width: 820px) and (max-width: 850px) {
+    .menubtn {
+        display: none;
+    }
 
+    #bg3 {
+        display: none;
+    }
 
 
 
 }
 
-/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    #logotext {
-        font-size: 15px;
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+    .menubtn {
+        display: none;
     }
-} */
+
+    #bg3 {
+        display: none;
+    }
+}

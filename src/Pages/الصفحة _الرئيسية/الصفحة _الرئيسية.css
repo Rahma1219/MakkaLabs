@@ -1,5 +1,4 @@
-
-.home{
+.home {
     width: 100%;
     height: auto;
 }
@@ -45,7 +44,7 @@
 
 
 #bglabimg:hover {
-cursor: pointer;
+    cursor: pointer;
     box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.466);
 }
 
@@ -58,40 +57,27 @@ cursor: pointer;
 }
 
 .image2 {
-    /* margin-left: 20px; */
     width: 170px;
     height: 170px;
 }
 
 .image3 {
-    /* margin-left: 20px; */
     width: 180px;
     height: 180px;
 }
 
 
-/* #textlabimg {
-    padding-top: 30px;
-    text-align: center;
-    font-size: 40px;
-    font-family: "Noto Sans Arabic", serif;
-    font-optical-sizing: auto;
-    font-weight:700;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
 
-} */
 .textlimh {
     padding-top: 30px;
     text-align: center;
     font-size: 40px;
     font-family: "Noto Sans Arabic", serif;
-    font-weight:700;
+    font-weight: 700;
 }
 
 .textlimh:hover {
- font-size: 38px;
+    font-size: 38px;
 }
 
 
@@ -102,13 +88,46 @@ cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {
- 
+
 
     #bglabimg {
-       
+
         width: 250px;
         height: 250px;
-       
+
+    }
+
+
+    .labsdata {
+        padding-top: 0px;
+    }
+
+    .textlimh {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 35px;
+        font-family: "Noto Sans Arabic", serif;
+        font-weight: 700;
+    }
+
+    .textlimh:hover {
+        font-size: 32px;
+    }
+
+    .carouselSec2 {
+        padding: 0 0;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+    #bglabimg {
+
+        width: 250px;
+        height: 250px;
+
     }
 
 
@@ -121,18 +140,28 @@ cursor: pointer;
         text-align: center;
         font-size: 35px;
         font-family: "Noto Sans Arabic", serif;
-        font-weight:700;
+        font-weight: 700;
     }
+
+    .textlimh:hover {
+        font-size: 32px;
+    }
+
+    .carouselSec2 {
+        padding: 0px 0;
+    }
+
 }
 
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
     #bglabimg {
-       
+
         width: 250px;
         height: 250px;
-       
+
     }
 
 
@@ -145,6 +174,9 @@ cursor: pointer;
         text-align: center;
         font-size: 35px;
         font-family: "Noto Sans Arabic", serif;
-        font-weight:700;
+        font-weight: 700;
     }
+
+  
 }
+
