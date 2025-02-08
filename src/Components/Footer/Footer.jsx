@@ -36,7 +36,7 @@ function Footer() {
                 <hr />
                 
 
-                <p id={modules.textfooter}>معـامل مــكــــة All rights reverved@ 2024   </p>
+                <p id={modules.textfooter}>معـامل مــكــــة All rights reverved &copy; 2024   </p>
 
               
 
